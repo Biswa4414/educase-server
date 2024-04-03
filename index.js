@@ -18,7 +18,7 @@ const store = new mongoDbSession({
 app.use(express.json());
 app.use(cors(
   {
-    origin:["https://educase-client.vercel.app/"],
+    origin:["https://educase-client.vercel.app"],
     methods:["POST","GET"],
     credentials:true
   }
